@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.service;
+package org.onap.dcaegen2.services.pmmapper.service;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -29,10 +29,10 @@ import org.apache.http.client.methods.HttpPatch;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
-import org.onap.dcaegen2.services.prh.model.CommonFunctions;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModelForUnitTest;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.model.CommonFunctions;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModelForUnitTest;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

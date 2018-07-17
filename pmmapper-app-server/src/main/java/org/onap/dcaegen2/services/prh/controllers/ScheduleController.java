@@ -17,11 +17,11 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.controllers;
+package org.onap.dcaegen2.services.pmmapper.controllers;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.onap.dcaegen2.services.prh.configuration.SchedulerConfig;
+import org.onap.dcaegen2.services.pmmapper.configuration.SchedulerConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

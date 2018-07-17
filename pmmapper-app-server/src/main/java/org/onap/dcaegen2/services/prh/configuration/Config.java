@@ -17,11 +17,11 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.configuration;
+package org.onap.dcaegen2.services.pmmapper.configuration;
 
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
-import org.onap.dcaegen2.services.prh.config.DmaapConsumerConfiguration;
-import org.onap.dcaegen2.services.prh.config.DmaapPublisherConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.DmaapConsumerConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.DmaapPublisherConfiguration;
 
 /**
  * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/25/18

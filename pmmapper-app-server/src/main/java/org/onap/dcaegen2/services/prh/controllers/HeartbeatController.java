@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.controllers;
+package org.onap.dcaegen2.services.pmmapper.controllers;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

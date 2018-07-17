@@ -17,17 +17,17 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.tasks;
+package org.onap.dcaegen2.services.pmmapper.tasks;
 
 import java.io.IOException;
 import java.util.Optional;
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
-import org.onap.dcaegen2.services.prh.configuration.AppConfig;
-import org.onap.dcaegen2.services.prh.configuration.Config;
-import org.onap.dcaegen2.services.prh.exceptions.AAINotFoundException;
-import org.onap.dcaegen2.services.prh.exceptions.PrhTaskException;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.service.AAIConsumerClient;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.configuration.AppConfig;
+import org.onap.dcaegen2.services.pmmapper.configuration.Config;
+import org.onap.dcaegen2.services.pmmapper.exceptions.AAINotFoundException;
+import org.onap.dcaegen2.services.pmmapper.exceptions.PrhTaskException;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.service.AAIConsumerClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

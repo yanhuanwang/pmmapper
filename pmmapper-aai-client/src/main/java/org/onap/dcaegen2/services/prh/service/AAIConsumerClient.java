@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.service;
+package org.onap.dcaegen2.services.pmmapper.service;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ResponseHandler;
@@ -27,9 +27,9 @@ import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.util.EntityUtils;
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.model.utils.HttpUtils;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.model.utils.HttpUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

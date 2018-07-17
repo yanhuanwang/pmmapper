@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.configuration;
+package org.onap.dcaegen2.services.pmmapper.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -38,7 +38,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Profile("prod")
 public class SwaggerConfig extends WebMvcConfigurationSupport {
 
-  private static final String PACKAGE_PATH = "org.onap.dcaegen2.services.prh";
+  private static final String PACKAGE_PATH = "org.onap.dcaegen2.services.pmmapper";
   private static final String API_TITLE = "PRH app server";
   private static final String DESCRIPTION = "This page lists all the rest apis for PRH app server.";
   private static final String VERSION = "1.0";

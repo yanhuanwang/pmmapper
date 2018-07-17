@@ -18,12 +18,12 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.service.config;
+package org.onap.dcaegen2.services.pmmapper.service.config;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.onap.dcaegen2.services.prh.config.DmaapConsumerConfiguration;
-import org.onap.dcaegen2.services.prh.config.ImmutableDmaapConsumerConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.DmaapConsumerConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.ImmutableDmaapConsumerConfiguration;
 
 public class DmaapConsumerConfigurationTest {
 

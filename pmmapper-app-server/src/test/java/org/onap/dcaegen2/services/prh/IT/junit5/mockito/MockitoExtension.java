@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.IT.junit5.mockito;
+package org.onap.dcaegen2.services.pmmapper.IT.junit5.mockito;
 
 import static org.mockito.Mockito.mock;
 

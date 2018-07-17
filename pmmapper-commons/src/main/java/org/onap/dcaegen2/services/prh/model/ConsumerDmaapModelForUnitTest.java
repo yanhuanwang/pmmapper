@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.model;
+package org.onap.dcaegen2.services.pmmapper.model;
 
 public class ConsumerDmaapModelForUnitTest implements ConsumerDmaapModel {
 

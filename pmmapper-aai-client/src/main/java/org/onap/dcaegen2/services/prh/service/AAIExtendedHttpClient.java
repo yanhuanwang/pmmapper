@@ -17,9 +17,9 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.service;
+package org.onap.dcaegen2.services.pmmapper.service;
 
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
 
 import java.net.URISyntaxException;
 import java.util.Optional;

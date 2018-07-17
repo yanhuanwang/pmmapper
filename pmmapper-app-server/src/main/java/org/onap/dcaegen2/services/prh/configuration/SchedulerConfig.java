@@ -17,14 +17,14 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.configuration;
+package org.onap.dcaegen2.services.pmmapper.configuration;
 
 import io.swagger.annotations.ApiOperation;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 import javax.annotation.PostConstruct;
-import org.onap.dcaegen2.services.prh.tasks.ScheduledTasks;
+import org.onap.dcaegen2.services.pmmapper.tasks.ScheduledTasks;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;

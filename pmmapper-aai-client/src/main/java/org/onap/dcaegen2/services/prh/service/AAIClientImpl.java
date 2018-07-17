@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.service;
+package org.onap.dcaegen2.services.pmmapper.service;
 
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.Credentials;
@@ -31,7 +31,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.ssl.SSLContextBuilder;
 import org.apache.http.ssl.TrustStrategy;
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

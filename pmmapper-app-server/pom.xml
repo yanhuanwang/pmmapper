@@ -29,7 +29,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>pmmapper-app-server</artifactId>
-  <groupId>org.onap.dcaegen2.services.prh</groupId>
+  <groupId>org.onap.dcaegen2.services.pmmapper</groupId>
   <packaging>jar</packaging>
   <properties>
     <maven.build.timestamp.format>yyyyMMdd'T'HHmmss</maven.build.timestamp.format>
@@ -79,7 +79,7 @@
         </executions>
         <configuration>
           <finalName>${project.fatJar.finalName}</finalName>
-          <mainClass>org.onap.dcaegen2.services.prh.MainApp</mainClass>
+          <mainClass>org.onap.dcaegen2.services.pmmapper.MainApp</mainClass>
         </configuration>
       </plugin>
       <!-- This plugin may go away in favor of a custom Dockerfile provided by Carsten and co. -->
@@ -188,7 +188,7 @@
       <artifactId>gson</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.onap.dcaegen2.services.prh</groupId>
+      <groupId>org.onap.dcaegen2.services.pmmapper</groupId>
       <artifactId>pmmapper-commons</artifactId>
       <version>1.0.0-SNAPSHOT</version>
       </dependency>
@@ -253,12 +253,12 @@
       <artifactId>testng</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.onap.dcaegen2.services.prh</groupId>
+      <groupId>org.onap.dcaegen2.services.pmmapper</groupId>
       <artifactId>pmmapper-aai-client</artifactId>
       <version>${project.parent.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.onap.dcaegen2.services.prh</groupId>
+      <groupId>org.onap.dcaegen2.services.pmmapper</groupId>
       <artifactId>pmmapper-dmaap-client</artifactId>
       <version>${project.parent.version}</version>
     </dependency>
@@ -274,7 +274,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.onap.dcaegen2.services.prh</groupId>
+      <groupId>org.onap.dcaegen2.services.pmmapper</groupId>
       <artifactId>pmmapper-aai-client</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>

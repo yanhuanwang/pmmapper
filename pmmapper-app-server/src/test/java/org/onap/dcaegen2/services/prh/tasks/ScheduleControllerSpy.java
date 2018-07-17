@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.tasks;
+package org.onap.dcaegen2.services.pmmapper.tasks;
 
 import static org.mockito.Mockito.spy;
 

@@ -18,7 +18,7 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.service.producer;
+package org.onap.dcaegen2.services.pmmapper.service.producer;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -30,9 +30,9 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.onap.dcaegen2.services.prh.config.DmaapPublisherConfiguration;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModelForUnitTest;
+import org.onap.dcaegen2.services.pmmapper.config.DmaapPublisherConfiguration;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModelForUnitTest;
 
 import java.io.IOException;
 import java.lang.reflect.Field;

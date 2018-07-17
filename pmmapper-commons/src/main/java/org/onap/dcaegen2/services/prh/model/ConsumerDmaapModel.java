@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.model;
+package org.onap.dcaegen2.services.pmmapper.model;
 
 import com.google.gson.annotations.SerializedName;
 import org.immutables.gson.Gson;

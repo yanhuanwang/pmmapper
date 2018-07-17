@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.tasks;
+package org.onap.dcaegen2.services.pmmapper.tasks;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.doReturn;
@@ -34,14 +34,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
-import org.onap.dcaegen2.services.prh.config.ImmutableAAIClientConfiguration;
-import org.onap.dcaegen2.services.prh.configuration.AppConfig;
-import org.onap.dcaegen2.services.prh.exceptions.AAINotFoundException;
-import org.onap.dcaegen2.services.prh.exceptions.PrhTaskException;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.model.ImmutableConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.service.AAIConsumerClient;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.ImmutableAAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.configuration.AppConfig;
+import org.onap.dcaegen2.services.pmmapper.exceptions.AAINotFoundException;
+import org.onap.dcaegen2.services.pmmapper.exceptions.PrhTaskException;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.model.ImmutableConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.service.AAIConsumerClient;
 
 /**
  * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 5/17/18

@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.response;
+package org.onap.dcaegen2.services.pmmapper.response;
 
 import static java.util.Collections.unmodifiableList;
 

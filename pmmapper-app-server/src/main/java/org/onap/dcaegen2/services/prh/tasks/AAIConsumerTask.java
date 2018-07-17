@@ -18,12 +18,12 @@
  * ============LICENSE_END=========================================================
  */
 
-package org.onap.dcaegen2.services.prh.tasks;
+package org.onap.dcaegen2.services.pmmapper.tasks;
 
 import java.util.Optional;
-import org.onap.dcaegen2.services.prh.exceptions.AAINotFoundException;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.service.AAIConsumerClient;
+import org.onap.dcaegen2.services.pmmapper.exceptions.AAINotFoundException;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.service.AAIConsumerClient;
 
 public abstract class AAIConsumerTask<R, S, C> extends Task<R, S, C> {
 

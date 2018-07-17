@@ -17,10 +17,10 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.configuration;
+package org.onap.dcaegen2.services.pmmapper.configuration;
 
 import java.util.function.Predicate;
-import org.onap.dcaegen2.services.prh.config.*;
+import org.onap.dcaegen2.services.pmmapper.config.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;

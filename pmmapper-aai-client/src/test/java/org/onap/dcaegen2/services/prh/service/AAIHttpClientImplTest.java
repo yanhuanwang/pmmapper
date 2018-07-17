@@ -17,11 +17,11 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.service;
+package org.onap.dcaegen2.services.pmmapper.service;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
 
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.mock;

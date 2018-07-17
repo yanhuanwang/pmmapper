@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.config;
+package org.onap.dcaegen2.services.pmmapper.config;
 
 import org.immutables.gson.Gson;
 import org.immutables.value.Value;

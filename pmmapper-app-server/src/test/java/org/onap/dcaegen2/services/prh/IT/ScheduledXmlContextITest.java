@@ -17,7 +17,7 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.IT;
+package org.onap.dcaegen2.services.pmmapper.IT;
 
 import static org.mockito.Mockito.atLeast;
 import static org.mockito.Mockito.mock;
@@ -28,10 +28,10 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.IT.junit5.mockito.MockitoExtension;
-import org.onap.dcaegen2.services.prh.configuration.PmmapperAppConfig;
-import org.onap.dcaegen2.services.prh.tasks.ScheduledTasks;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.IT.junit5.mockito.MockitoExtension;
+import org.onap.dcaegen2.services.pmmapper.configuration.PmmapperAppConfig;
+import org.onap.dcaegen2.services.pmmapper.tasks.ScheduledTasks;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

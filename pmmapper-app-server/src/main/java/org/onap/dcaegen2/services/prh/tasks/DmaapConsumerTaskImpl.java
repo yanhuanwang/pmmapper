@@ -17,18 +17,18 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.tasks;
+package org.onap.dcaegen2.services.pmmapper.tasks;
 
 import java.util.Optional;
-import org.onap.dcaegen2.services.prh.config.DmaapConsumerConfiguration;
-import org.onap.dcaegen2.services.prh.configuration.AppConfig;
-import org.onap.dcaegen2.services.prh.configuration.Config;
-import org.onap.dcaegen2.services.prh.exceptions.DmaapEmptyResponseException;
-import org.onap.dcaegen2.services.prh.exceptions.DmaapNotFoundException;
-import org.onap.dcaegen2.services.prh.exceptions.PrhTaskException;
-import org.onap.dcaegen2.services.prh.model.ConsumerDmaapModel;
-import org.onap.dcaegen2.services.prh.service.DmaapConsumerJsonParser;
-import org.onap.dcaegen2.services.prh.service.consumer.ExtendedDmaapConsumerHttpClientImpl;
+import org.onap.dcaegen2.services.pmmapper.config.DmaapConsumerConfiguration;
+import org.onap.dcaegen2.services.pmmapper.configuration.AppConfig;
+import org.onap.dcaegen2.services.pmmapper.configuration.Config;
+import org.onap.dcaegen2.services.pmmapper.exceptions.DmaapEmptyResponseException;
+import org.onap.dcaegen2.services.pmmapper.exceptions.DmaapNotFoundException;
+import org.onap.dcaegen2.services.pmmapper.exceptions.PrhTaskException;
+import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
+import org.onap.dcaegen2.services.pmmapper.service.DmaapConsumerJsonParser;
+import org.onap.dcaegen2.services.pmmapper.service.consumer.ExtendedDmaapConsumerHttpClientImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

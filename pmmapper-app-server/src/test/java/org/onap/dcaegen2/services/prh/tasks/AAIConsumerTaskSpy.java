@@ -17,11 +17,11 @@
  * limitations under the License.
  * ============LICENSE_END=========================================================
  */
-package org.onap.dcaegen2.services.prh.tasks;
+package org.onap.dcaegen2.services.pmmapper.tasks;
 
-import org.onap.dcaegen2.services.prh.config.AAIClientConfiguration;
+import org.onap.dcaegen2.services.pmmapper.config.AAIClientConfiguration;
 
-import org.onap.dcaegen2.services.prh.configuration.AppConfig;
+import org.onap.dcaegen2.services.pmmapper.configuration.AppConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
