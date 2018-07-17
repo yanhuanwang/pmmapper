@@ -30,7 +30,7 @@
     <relativePath/>
   </parent>
   <groupId>org.onap.dcaegen2.services</groupId>
-  <artifactId>prh</artifactId>
+  <artifactId>pmmapper</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>dcaegen2-services.pmmapper</name>
   <description>pnf-registration-handler</description>
