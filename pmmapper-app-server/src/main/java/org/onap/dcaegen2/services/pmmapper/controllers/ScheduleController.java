@@ -65,9 +65,9 @@ public class ScheduleController {
     @ApiOperation(value = "Sends success or error response on starting task execution")
     private ResponseEntity<String> createStartTaskResponse(boolean wasScheduled) {
         if (wasScheduled) {
-            return new ResponseEntity<>("PRH Service has been started!", HttpStatus.CREATED);
+            return new ResponseEntity<>("pmmapper service has been started!", HttpStatus.CREATED);
         } else {
-            return new ResponseEntity<>("PRH Service is still running!", HttpStatus.NOT_ACCEPTABLE);
+            return new ResponseEntity<>("pmmapper service is still running!", HttpStatus.NOT_ACCEPTABLE);
         }
     }
 }

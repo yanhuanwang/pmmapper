@@ -1,14 +1,14 @@
 ---
 swagger: '2.0'
 info:
-  description: This page lists all the rest apis for PRH app server.
+  description: This page lists all the rest apis for PM-MAPPER app server.
   version: '1.0'
-  title: PRH app server
+  title: PM-MAPPER app server
 host: localhost:8100
 basePath: "/"
 tags:
 - name: heartbeat-controller
-  description: Check liveness of PRH service
+  description: Check liveness of pmmapper service
 - name: schedule-controller
   description: Schedule Controller
 paths:
@@ -16,13 +16,13 @@ paths:
     get:
       tags:
       - heartbeat-controller
-      summary: Returns liveness of PRH service
+      summary: Returns liveness of pmmapper service
       operationId: heartbeatUsingGET
       produces:
       - "*/*"
       responses:
         '200':
-          description: PRH sevice is living
+          description: PM-MAPPER sevice is living
           schema:
             "$ref": "#/definitions/Mono«ResponseEntity«string»»"
         '401':

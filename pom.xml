@@ -186,7 +186,7 @@
           </configuration>
           <executions>
             <execution>
-              <id>Bundling PRH Jar</id>
+              <id>Bundling PM-MAPPER Jar</id>
               <phase>package</phase>
               <goals>
                 <goal>bundle</goal>

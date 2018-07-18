@@ -36,15 +36,15 @@ import reactor.core.publisher.Mono;
  * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/19/18
  */
 @RestController
-@Api(value = "HeartbeatController", description = "Check liveness of PRH service")
+@Api(value = "HeartbeatController", description = "Check liveness of pmmapper service")
 public class HeartbeatController {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @RequestMapping(value = "heartbeat", method = RequestMethod.GET)
-    @ApiOperation(value = "Returns liveness of PRH service")
+    @ApiOperation(value = "Returns liveness of pmmapper service")
     @ApiResponses(value = {
-        @ApiResponse(code = 200, message = "PRH sevice is living"),
+        @ApiResponse(code = 200, message = "pmmapper sevice is living"),
         @ApiResponse(code = 401, message = "You are not authorized to view the resource"),
         @ApiResponse(code = 403, message = "Accessing the resource you were trying to reach is forbidden"),
         @ApiResponse(code = 404, message = "The resource you were trying to reach is not found")

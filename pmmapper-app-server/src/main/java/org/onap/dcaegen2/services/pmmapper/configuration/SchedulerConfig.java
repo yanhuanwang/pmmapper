@@ -57,7 +57,7 @@ public class SchedulerConfig extends PmmapperAppConfig {
         scheduledFutureList.forEach(x -> x.cancel(false));
         scheduledFutureList.clear();
         return Mono.defer(() ->
-            Mono.just(new ResponseEntity<>("PRH Service has already been stopped!", HttpStatus.CREATED))
+            Mono.just(new ResponseEntity<>("pmmapper service has already been stopped!", HttpStatus.CREATED))
         );
     }
 
