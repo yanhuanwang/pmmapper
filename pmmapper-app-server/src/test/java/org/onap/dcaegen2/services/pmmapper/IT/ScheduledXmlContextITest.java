@@ -41,7 +41,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 3/27/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 3/27/18
  */
 
 @Configuration

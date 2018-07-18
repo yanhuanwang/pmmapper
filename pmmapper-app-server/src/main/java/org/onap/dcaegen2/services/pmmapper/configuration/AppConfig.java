@@ -28,7 +28,7 @@ import org.springframework.stereotype.Component;
 import java.util.Optional;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/9/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/9/18
  */
 
 @Component

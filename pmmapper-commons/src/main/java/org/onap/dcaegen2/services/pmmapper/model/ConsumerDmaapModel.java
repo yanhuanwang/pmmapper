@@ -24,7 +24,7 @@ import org.immutables.gson.Gson;
 import org.immutables.value.Value;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 5/8/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 5/8/18
  */
 
 @Value.Immutable

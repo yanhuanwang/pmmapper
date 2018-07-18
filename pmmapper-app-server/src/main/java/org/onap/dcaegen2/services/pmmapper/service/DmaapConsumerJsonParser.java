@@ -33,7 +33,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 5/8/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 5/8/18
  */
 public class DmaapConsumerJsonParser {
 

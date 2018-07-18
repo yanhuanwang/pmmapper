@@ -34,7 +34,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import reactor.core.publisher.Mono;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 6/13/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 6/13/18
  */
 @Configuration
 @EnableScheduling

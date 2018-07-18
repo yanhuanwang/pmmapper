@@ -34,7 +34,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/13/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/13/18
  */
 @Component
 public class DmaapPublisherTaskImpl extends

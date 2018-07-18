@@ -20,7 +20,7 @@
 package org.onap.dcaegen2.services.pmmapper.exceptions;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/13/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/13/18
  */
 public class DmaapNotFoundException extends PrhTaskException {
 

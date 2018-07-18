@@ -35,7 +35,7 @@ import java.io.*;
 import java.util.ServiceLoader;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/9/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/9/18
  */
 @Configuration
 @EnableConfigurationProperties

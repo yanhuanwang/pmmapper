@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/19/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/19/18
  */
 @RestController
 @Api(value = "HeartbeatController", description = "Check liveness of pmmapper service")

@@ -24,7 +24,7 @@ import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
 import org.onap.dcaegen2.services.pmmapper.service.producer.ExtendedDmaapProducerHttpClientImpl;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 3/23/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 3/23/18
  */
 abstract class DmaapPublisherTask<R, S, C> extends Task<R, S, C> {
 

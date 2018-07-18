@@ -34,7 +34,7 @@ import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
 import org.onap.dcaegen2.services.pmmapper.model.ImmutableConsumerDmaapModel;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 5/8/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 5/8/18
  */
 class DmaapConsumerJsonParserTest {
 

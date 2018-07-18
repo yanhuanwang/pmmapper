@@ -31,7 +31,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ConcurrentTaskScheduler;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 3/23/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 3/23/18
  */
 @SpringBootApplication
 @Configuration

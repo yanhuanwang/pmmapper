@@ -24,7 +24,7 @@ import org.onap.dcaegen2.services.pmmapper.model.ConsumerDmaapModel;
 import org.onap.dcaegen2.services.pmmapper.service.AAIProducerClient;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/13/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/13/18
  */
 public abstract class AAIProducerTask<R, S, C> extends Task<R, S, C> {
 

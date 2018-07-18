@@ -21,7 +21,7 @@
 package org.onap.dcaegen2.services.pmmapper.response;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/17/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/17/18
  */
 public interface DMaaPResponse {
 

@@ -29,7 +29,7 @@ import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/17/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/17/18
  */
 public class DMaaPConsumerResponseImpl implements DMaaPConsumerResponse {
 

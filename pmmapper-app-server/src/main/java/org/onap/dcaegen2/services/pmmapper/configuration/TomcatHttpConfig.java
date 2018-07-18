@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/18/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/18/18
  */
 @Configuration
 public class TomcatHttpConfig {

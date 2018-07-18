@@ -23,7 +23,7 @@ import java.io.Serializable;
 import org.immutables.value.Value;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 3/28/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 3/28/18
  */
 public interface DmaapCustomConfig extends Serializable {
 

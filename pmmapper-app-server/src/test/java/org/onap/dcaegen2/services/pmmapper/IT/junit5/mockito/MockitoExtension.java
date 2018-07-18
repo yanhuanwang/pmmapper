@@ -33,7 +33,7 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.Mock;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 3/27/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 3/27/18
  *
  * {@code MockitoExtension} showcases the {@link TestInstancePostProcessor} and {@link ParameterResolver} extension APIs
  * of JUnit 5 by providing dependency injection support at the field level and at the method parameter level via Mockito

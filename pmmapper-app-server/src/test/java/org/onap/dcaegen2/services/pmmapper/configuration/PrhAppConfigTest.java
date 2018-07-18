@@ -42,7 +42,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.onap.dcaegen2.services.pmmapper.IT.junit5.mockito.MockitoExtension;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/9/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/9/18
  */
 @ExtendWith({MockitoExtension.class})
 class PmmapperAppConfigTest {

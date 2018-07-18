@@ -24,7 +24,7 @@ import org.onap.dcaegen2.services.pmmapper.config.DmaapConsumerConfiguration;
 import org.onap.dcaegen2.services.pmmapper.config.DmaapPublisherConfiguration;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 4/25/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 4/25/18
  */
 public interface Config {
 

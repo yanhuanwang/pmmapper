@@ -46,7 +46,7 @@ import org.onap.dcaegen2.services.pmmapper.exceptions.AAINotFoundException;
 import org.onap.dcaegen2.services.pmmapper.service.AAIProducerClient;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 5/14/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 5/14/18
  */
 class AAIProducerTaskImplTest {
 

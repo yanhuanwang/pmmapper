@@ -34,7 +34,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 /**
- * @author <a href="mailto:przemyslaw.wasala@nokia.com">Przemysław Wąsala</a> on 3/27/18
+ * @author <a href="mailto:admin@est.tech">Przemysław Wąsala</a> on 3/27/18
  */
 @Configuration
 public class DmaapConsumerTaskSpy {
